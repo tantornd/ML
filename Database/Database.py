@@ -1,8 +1,9 @@
 import pandas as pd
 import sqlite3
-
+#Only thing user needs to edit
 excel_file_path = r"C:\Users\tanto\Desktop\Forecast\Final_Updated_Net-PEAK19.xlsx"
 database_path = r"C:\Users\tanto\Desktop\Forecast\data\NetPeak2019.db"
+
 def convert_month_year(sheet_name):
     month_name_map = {
         'มค': 'January', 'กพ': 'February', 'มีค': 'March',
