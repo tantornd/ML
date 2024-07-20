@@ -22,7 +22,7 @@ def sanitize_sheet_name(sheet_name):
     return sheet_name.replace(':', '.').replace('/', '_').replace('\\', '_').replace('[', '_').replace(']', '_').replace('*', '_').replace('?', '_')
 
 def classify_day_type(date, holidays):
-    if date.strftime('%Y-%m-%d') in holidays:
+    if holidays == 1:
         return 'Holiday'
     elif date.weekday() >= 5:
         return 'Weekend'
