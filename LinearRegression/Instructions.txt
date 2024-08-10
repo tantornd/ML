@@ -1,1 +1,0 @@
-Gives the Coefficient of the model as well as the MAPE. Can set the amount of data to be used to train or test the data by setting the indexes in line 13-16. This code also writes the Predicted Load into a specified excel sheet as well as the MAPE.
